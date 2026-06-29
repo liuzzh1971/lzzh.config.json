@@ -1,0 +1,23 @@
+{
+  "sites": [
+    {
+      "key": "moyu4k",
+      "name": "【摸鱼4K】JS规则源 (已配置MD5)",
+      "type": 3,
+      "api": "https://freed.yuanhsing.cf/TVBox/meowcf.json",
+ 
+      "searchable": 1,
+ 
+      "playerType": 1,
+      "rule": "moyu4k_rule"
+    }
+  ],
+  "rules": [
+    {
+      "name": "moyu4k_rule",
+      "hosts": ["www.摸鱼儿.top", "我不是.摸鱼儿.top"],
+      "type": "js",
+      "script": "https://your-server.com/path/to/moyu4k.js"
+    }
+  ]
+}
